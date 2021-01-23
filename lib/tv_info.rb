@@ -11,4 +11,8 @@ class TvInfo
       "condition.keyword=#{escaped_name}&"\
       'stationPlatformId=0'
   end
+
+  def extract_program_title(raw_title)
+    raw_title.gsub(/\[.*?\]/, '')
+  end
 end

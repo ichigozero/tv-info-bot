@@ -14,4 +14,13 @@ describe TvInfo do
       expect(subject).to eq(expected_url)
     end
   end
+
+  describe '.extract_program_title' do
+    raw_title = '[映]かぞくいろ　-RAILWAYS　わたしたちの出発-[SS][字]'
+    subject { @tv_info.send(:extract_program_title, raw_title) }
+
+    it 'returns program title only' do
+      expect(subject).to eq('かぞくいろ　-RAILWAYS　わたしたちの出発-')
+    end
+  end
 end
