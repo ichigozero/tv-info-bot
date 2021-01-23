@@ -32,4 +32,21 @@ describe TvInfo do
       expect(subject).to eq('ＷＯＷＯＷシネマ')
     end
   end
+
+  describe '.extract_program_schedule' do
+    raw_date = '2021-01-28T14:40+09:00'
+    raw_description = '1/28 14:40～16:50 [ＷＯＷＯＷシネマ]'
+    subject do
+      @tv_info.send(:extract_program_schedule, raw_date, raw_description)
+    end
+
+    it 'returns program schedule' do
+      expect(subject).to eq(
+        {
+          start: Time.new(2021, 1, 28, 14, 40),
+          end: Time.new(2021, 1, 28, 16, 50)
+        }
+      )
+    end
+  end
 end
