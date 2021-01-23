@@ -15,4 +15,8 @@ class TvInfo
   def extract_program_title(raw_title)
     raw_title.gsub(/\[.*?\]/, '')
   end
+
+  def extract_channel_name(raw_description)
+    raw_description.match(/\[(.+)\]/)[1]
+  end
 end

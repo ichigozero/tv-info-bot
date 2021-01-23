@@ -23,4 +23,13 @@ describe TvInfo do
       expect(subject).to eq('かぞくいろ　-RAILWAYS　わたしたちの出発-')
     end
   end
+
+  describe '.extract_channel_name' do
+    raw_description = '1/28 14:40～16:50 [ＷＯＷＯＷシネマ]'
+    subject { @tv_info.send(:extract_channel_name, raw_description) }
+
+    it 'returns channel name' do
+      expect(subject).to eq('ＷＯＷＯＷシネマ')
+    end
+  end
 end
