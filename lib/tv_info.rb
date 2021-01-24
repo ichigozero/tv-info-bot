@@ -2,6 +2,16 @@ require 'cgi'
 require 'time'
 
 class TvInfo
+  def get_program_summaries_of_multiple_actors(actor_names)
+    summaries = []
+
+    actor_names.each do |actor_name|
+      summaries << get_program_summaries(actor_name)
+    end
+
+    summaries.flatten
+  end
+
   def get_program_summaries(actor_name)
     rss = RSS::Parser.parse(compose_url(actor_name))
     summaries = []

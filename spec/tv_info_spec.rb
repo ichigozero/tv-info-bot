@@ -4,13 +4,25 @@ require 'tv_info'
 describe TvInfo do
   before(:each) { @tv_info = TvInfo.new }
 
+  describe '.get_program_summaries_of_multiple_actors' do
+    it 'returns program summaries given actor names' do
+      rss = RSS::Parser.parse(File.read('spec/fixtures/rss.xml'), false)
+      allow(RSS::Parser).to receive(:parse).and_return(rss)
+
+      summaries = @tv_info.get_program_summaries_of_multiple_actors(
+        %w[有村架純 よしのちとせ]
+      )
+      expect(summaries.length).to eq(88)
+    end
+  end
+
   describe '.get_program_summaries' do
     it 'returns program summaries given actor name' do
       rss = RSS::Parser.parse(File.read('spec/fixtures/rss.xml'), false)
       allow(RSS::Parser).to receive(:parse).and_return(rss)
 
       summaries = @tv_info.get_program_summaries('有村架純')
-      expect(summaries.length()).to eq(44)
+      expect(summaries.length).to eq(44)
     end
   end
 
