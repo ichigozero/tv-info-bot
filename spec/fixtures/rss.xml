@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="https://www.tvkingdom.jp/">
+    <title>Gガイド.テレビ王国 - 検索結果のRSS配信 - すべての番組(東京)</title>
+    <link>https://www.tvkingdom.jp/</link>
+    <description>テレビ番組情報を提供しています。局の都合により、番組内容、放送時間などが変更になる事があります。番組データ提供元：（株）インタラクティブ・プログラム・ガイド。この情報の無断複写・転載を禁じます。</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400616202101240300.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101240300.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200255202101240620.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400634202101240620.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101240800.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101240900.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200255202101241610.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400634202101241610.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400616202101242030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101242030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/101072202101250235.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/800171202101250250.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200171202101250250.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101250815.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200252202101252030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400630202101252030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400616202101260030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101260030.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101260815.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/101040202101261900.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500324202101262000.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101270815.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400616202101272200.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101272200.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/101072202101280235.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101280815.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200193202101281440.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400623202101281440.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400616202101282200.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101282200.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200255202101290700.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400634202101290700.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101290815.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500324202101300100.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/101072202101300230.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400615202101300910.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500308202101300910.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500324202101300930.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/800171202101301130.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/200171202101301130.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500296202101301850.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/400634202101310535.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101310800.action?from=rss"/>
+        <rdf:li rdf:resource="https://www.tvkingdom.jp/schedule/500305202101310900.action?from=rss"/>
+      </rdf:Seq>
+    </items>
+    <dc:language>ja</dc:language>
+    <dc:publisher>SMN株式会社 Gガイド.テレビ王国</dc:publisher>
+    <dc:creator>SMN株式会社 Gガイド.テレビ王国</dc:creator>
+    <dc:rights>Copyright 1999-2021 SMN Corporation. Copyright 2021 Interactive Program Guide Inc.</dc:rights>
+    <dc:date>2021-01-23T21:25+09:00</dc:date>
+  </channel>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400616202101240300.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/400616202101240300.action?from=rss</link>
+    <description>1/24 3:00～3:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T03:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101240300.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101240300.action?from=rss</link>
+    <description>1/24 3:00～3:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T03:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200255202101240620.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/200255202101240620.action?from=rss</link>
+    <description>1/24 6:20～6:40 [BS日本映画専門チャンネル]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T06:20+09:00</dc:date>
+    <dc:relation>4:255:60045</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400634202101240620.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/400634202101240620.action?from=rss</link>
+    <description>1/24 6:20～6:40 [日本映画専門チャンネル(Ch.634)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T06:20+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101240800.action?from=rss">
+    <title>連続テレビ小説 ひよっこ＃２５−２７＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101240800.action?from=rss</link>
+    <description>1/24 8:00～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-24T08:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101240900.action?from=rss">
+    <title>連続テレビ小説 ひよっこ＃２８−３０＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101240900.action?from=rss</link>
+    <description>1/24 9:00～10:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-24T09:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200255202101241610.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/200255202101241610.action?from=rss</link>
+    <description>1/24 16:10～16:30 [BS日本映画専門チャンネル]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T16:10+09:00</dc:date>
+    <dc:relation>4:255:60052</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400634202101241610.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/400634202101241610.action?from=rss</link>
+    <description>1/24 16:10～16:30 [日本映画専門チャンネル(Ch.634)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T16:10+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400616202101242030.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/400616202101242030.action?from=rss</link>
+    <description>1/24 20:30～21:00 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T20:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101242030.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101242030.action?from=rss</link>
+    <description>1/24 20:30～21:00 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-24T20:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/101072202101250235.action?from=rss">
+    <title>一夜づけ【一夜づけ式！私の好きなもの発表会】</title>
+    <link>https://www.tvkingdom.jp/schedule/101072202101250235.action?from=rss</link>
+    <description>1/25 2:35～3:05 [テレビ東京(Ch.7)]</description>
+    <dc:subject>
+        情報／ワイドショー
+    </dc:subject>
+    <dc:date>2021-01-25T02:35+09:00</dc:date>
+    <dc:relation>32742:1072:13891</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/800171202101250250.action?from=rss">
+    <title>シネマ・アディクト『花束みたいな恋をした』〈最新映画情報〉</title>
+    <link>https://www.tvkingdom.jp/schedule/800171202101250250.action?from=rss</link>
+    <description>1/25 2:50～2:55 [BSテレ東 4K]</description>
+    <dc:subject>
+        映画 , 
+        バラエティー
+    </dc:subject>
+    <dc:date>2021-01-25T02:50+09:00</dc:date>
+    <dc:relation>11:171:35737</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200171202101250250.action?from=rss">
+    <title>シネマ・アディクト『花束みたいな恋をした』〈最新映画情報〉</title>
+    <link>https://www.tvkingdom.jp/schedule/200171202101250250.action?from=rss</link>
+    <description>1/25 2:50～2:55 [ＢＳテレ東(Ch.7)]</description>
+    <dc:subject>
+        映画 , 
+        バラエティー
+    </dc:subject>
+    <dc:date>2021-01-25T02:50+09:00</dc:date>
+    <dc:relation>11:171:4249</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101250815.action?from=rss">
+    <title>[新]連続テレビ小説 ひよっこ＃９１−９２＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101250815.action?from=rss</link>
+    <description>1/25 8:15～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-25T08:15+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200252202101252030.action?from=rss">
+    <title>WOWOWオリジナルドラマ 有村架純の撮休 #7</title>
+    <link>https://www.tvkingdom.jp/schedule/200252202101252030.action?from=rss</link>
+    <description>1/25 20:30～21:00 [WOWOWプラス]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-25T20:30+09:00</dc:date>
+    <dc:relation>4:252:38238</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400630202101252030.action?from=rss">
+    <title>WOWOWオリジナルドラマ 有村架純の撮休 #7</title>
+    <link>https://www.tvkingdom.jp/schedule/400630202101252030.action?from=rss</link>
+    <description>1/25 20:30～21:00 [WOWOWプラス 映画・ドラマ・スポーツ・音楽(Ch.630)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-25T20:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400616202101260030.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/400616202101260030.action?from=rss</link>
+    <description>1/26 0:30～1:00 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-26T00:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101260030.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101260030.action?from=rss</link>
+    <description>1/26 0:30～1:00 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-26T00:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101260815.action?from=rss">
+    <title>[新]連続テレビ小説 ひよっこ＃９３−９４＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101260815.action?from=rss</link>
+    <description>1/26 8:15～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-26T08:15+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/101040202101261900.action?from=rss">
+    <title>火曜サプライズ[字]菅田将暉が電動ドリルで生け花！有村架純が豆から本格コーヒー修業</title>
+    <link>https://www.tvkingdom.jp/schedule/101040202101261900.action?from=rss</link>
+    <description>1/26 19:00～19:56 [日テレ(Ch.4)]</description>
+    <dc:subject>
+        情報／ワイドショー , 
+        バラエティー , 
+        ドキュメンタリー／教養
+    </dc:subject>
+    <dc:date>2021-01-26T19:00+09:00</dc:date>
+    <dc:relation>32738:1040:88</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500324202101262000.action?from=rss">
+    <title>シネマタイム#607：『花束みたいな恋をした』『わたしの叔父さん』他</title>
+    <link>https://www.tvkingdom.jp/schedule/500324202101262000.action?from=rss</link>
+    <description>1/26 20:00～21:00 [ミュージック・エア(Ch.324)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-26T20:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101270815.action?from=rss">
+    <title>[新]連続テレビ小説 ひよっこ＃９５−９６＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101270815.action?from=rss</link>
+    <description>1/27 8:15～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-27T08:15+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400616202101272200.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/400616202101272200.action?from=rss</link>
+    <description>1/27 22:00～22:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-27T22:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101272200.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101272200.action?from=rss</link>
+    <description>1/27 22:00～22:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-27T22:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/101072202101280235.action?from=rss">
+    <title>一夜づけ【花束みたいな恋をした】</title>
+    <link>https://www.tvkingdom.jp/schedule/101072202101280235.action?from=rss</link>
+    <description>1/28 2:35～2:50 [テレビ東京(Ch.7)]</description>
+    <dc:subject>
+        情報／ワイドショー
+    </dc:subject>
+    <dc:date>2021-01-28T02:35+09:00</dc:date>
+    <dc:relation>32742:1072:14016</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101280815.action?from=rss">
+    <title>[新]連続テレビ小説 ひよっこ＃９７−９８＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101280815.action?from=rss</link>
+    <description>1/28 8:15～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-28T08:15+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200193202101281440.action?from=rss">
+    <title>[映]かぞくいろ　-RAILWAYS　わたしたちの出発-[SS][字]</title>
+    <link>https://www.tvkingdom.jp/schedule/200193202101281440.action?from=rss</link>
+    <description>1/28 14:40～16:50 [ＷＯＷＯＷシネマ]</description>
+    <dc:subject>
+        映画 , 
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-28T14:40+09:00</dc:date>
+    <dc:relation>4:193:61629</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400623202101281440.action?from=rss">
+    <title>[映]かぞくいろ　−ＲＡＩＬＷＡＹＳ　わたしたちの出発−[SS][字]</title>
+    <link>https://www.tvkingdom.jp/schedule/400623202101281440.action?from=rss</link>
+    <description>1/28 14:40～16:50 [ＷＯＷＯＷシネマ(Ch.623)]</description>
+    <dc:subject>
+        映画 , 
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-28T14:40+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400616202101282200.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/400616202101282200.action?from=rss</link>
+    <description>1/28 22:00～22:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-28T22:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101282200.action?from=rss">
+    <title>映画「花束みたいな恋をした」スペシャル</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101282200.action?from=rss</link>
+    <description>1/28 22:00～22:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-28T22:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200255202101290700.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/200255202101290700.action?from=rss</link>
+    <description>1/29 7:00～7:20 [BS日本映画専門チャンネル]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-29T07:00+09:00</dc:date>
+    <dc:relation>4:255:60150</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400634202101290700.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/400634202101290700.action?from=rss</link>
+    <description>1/29 7:00～7:20 [日本映画専門チャンネル(Ch.634)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-29T07:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101290815.action?from=rss">
+    <title>[新]連続テレビ小説 ひよっこ＃９９−１００＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101290815.action?from=rss</link>
+    <description>1/29 8:15～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-29T08:15+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500324202101300100.action?from=rss">
+    <title>シネマタイム#607：『花束みたいな恋をした』『わたしの叔父さん』他</title>
+    <link>https://www.tvkingdom.jp/schedule/500324202101300100.action?from=rss</link>
+    <description>1/30 1:00～2:00 [ミュージック・エア(Ch.324)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-30T01:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/101072202101300230.action?from=rss">
+    <title>一夜づけ【花束みたいな恋をした】</title>
+    <link>https://www.tvkingdom.jp/schedule/101072202101300230.action?from=rss</link>
+    <description>1/30 2:30～2:45 [テレビ東京(Ch.7)]</description>
+    <dc:subject>
+        情報／ワイドショー
+    </dc:subject>
+    <dc:date>2021-01-30T02:30+09:00</dc:date>
+    <dc:relation>32742:1072:14104</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400615202101300910.action?from=rss">
+    <title>男おばさん!!　#204　　　　軽部真一と笠井信輔が送るエンタメ情報番組！</title>
+    <link>https://www.tvkingdom.jp/schedule/400615202101300910.action?from=rss</link>
+    <description>1/30 9:10～9:30 [フジテレビＴＷＯ　ドラマ・アニメ(Ch.615)]</description>
+    <dc:subject>
+        情報／ワイドショー
+    </dc:subject>
+    <dc:date>2021-01-30T09:10+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500308202101300910.action?from=rss">
+    <title>男おばさん!!　#204　　　　軽部真一と笠井信輔が送るエンタメ情報番組！</title>
+    <link>https://www.tvkingdom.jp/schedule/500308202101300910.action?from=rss</link>
+    <description>1/30 9:10～9:30 [フジテレビＴＷＯ　ドラマ・アニメ(Ch.308)]</description>
+    <dc:subject>
+        情報／ワイドショー
+    </dc:subject>
+    <dc:date>2021-01-30T09:10+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500324202101300930.action?from=rss">
+    <title>シネマタイム#607：『花束みたいな恋をした』『わたしの叔父さん』他</title>
+    <link>https://www.tvkingdom.jp/schedule/500324202101300930.action?from=rss</link>
+    <description>1/30 9:30～10:30 [ミュージック・エア(Ch.324)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-30T09:30+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/800171202101301130.action?from=rss">
+    <title>菅田将暉×有村架純最高純度のラブストーリー「花束みたいな恋をした」徹底解剖ＳＰ</title>
+    <link>https://www.tvkingdom.jp/schedule/800171202101301130.action?from=rss</link>
+    <description>1/30 11:30～12:00 [BSテレ東 4K]</description>
+    <dc:subject>
+        バラエティー , 
+        映画
+    </dc:subject>
+    <dc:date>2021-01-30T11:30+09:00</dc:date>
+    <dc:relation>11:171:36020</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/200171202101301130.action?from=rss">
+    <title>菅田将暉×有村架純最高純度のラブストーリー「花束みたいな恋をした」徹底解剖SP</title>
+    <link>https://www.tvkingdom.jp/schedule/200171202101301130.action?from=rss</link>
+    <description>1/30 11:30～12:00 [ＢＳテレ東(Ch.7)]</description>
+    <dc:subject>
+        バラエティー , 
+        映画
+    </dc:subject>
+    <dc:date>2021-01-30T11:30+09:00</dc:date>
+    <dc:relation>11:171:4520</dc:relation>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500296202101301850.action?from=rss">
+    <title>SPEC〜翔〜/警視庁公安部公安第五課 未詳事件特別対策係事件簿[字]</title>
+    <link>https://www.tvkingdom.jp/schedule/500296202101301850.action?from=rss</link>
+    <description>1/30 18:50～20:30 [ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.296)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-30T18:50+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/400634202101310535.action?from=rss">
+    <title>男おばさん!! #204</title>
+    <link>https://www.tvkingdom.jp/schedule/400634202101310535.action?from=rss</link>
+    <description>1/31 5:35～6:00 [日本映画専門チャンネル(Ch.634)]</description>
+    <dc:subject>
+        映画
+    </dc:subject>
+    <dc:date>2021-01-31T05:35+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101310800.action?from=rss">
+    <title>連続テレビ小説 ひよっこ＃３１−３３＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101310800.action?from=rss</link>
+    <description>1/31 8:00～9:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-31T08:00+09:00</dc:date>
+  </item>
+  <item rdf:about="https://www.tvkingdom.jp/schedule/500305202101310900.action?from=rss">
+    <title>連続テレビ小説 ひよっこ＃３４−３６＜全１５６話＞</title>
+    <link>https://www.tvkingdom.jp/schedule/500305202101310900.action?from=rss</link>
+    <description>1/31 9:00～10:00 [チャンネル銀河　歴史ドラマ・サスペンス・日本のうた(Ch.305)]</description>
+    <dc:subject>
+        ドラマ
+    </dc:subject>
+    <dc:date>2021-01-31T09:00+09:00</dc:date>
+  </item>
+</rdf:RDF>

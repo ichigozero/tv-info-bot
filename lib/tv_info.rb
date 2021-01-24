@@ -13,6 +13,18 @@ class TvInfo
       'stationPlatformId=0'
   end
 
+  def get_program_summary(actor_name, rss_item)
+    {
+      actor_name: actor_name,
+      title: extract_program_title(rss_item.title),
+      channel: extract_channel_name(rss_item.description),
+      schedule: extract_program_schedule(
+        rss_item.date.to_s,
+        rss_item.description
+      )
+    }
+  end
+
   def extract_program_title(raw_title)
     raw_title.gsub(/\[.*?\]/, '')
   end

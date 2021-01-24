@@ -1,3 +1,4 @@
+require 'rss'
 require 'tv_info'
 
 describe TvInfo do
@@ -12,6 +13,28 @@ describe TvInfo do
         'condition.keyword=%E6%9C%89%E6%9D%91%E6%9E%B6%E7%B4%94&'\
         'stationPlatformId=0'
       expect(subject).to eq(expected_url)
+    end
+  end
+
+  describe '.get_program_summary' do
+    rss = RSS::Parser.parse(File.read('spec/fixtures/rss.xml'), false)
+
+    subject do
+      @tv_info.send(:get_program_summary, '有村架純', rss.item)
+    end
+
+    it 'returns program summary' do
+      expect(subject).to eq(
+        {
+          actor_name: '有村架純',
+          title: '映画「花束みたいな恋をした」スペシャル',
+          channel: 'ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)',
+          schedule: {
+            start: Time.new(2021, 1, 24, 3, 0),
+            end: Time.new(2021, 1, 24, 3, 30)
+          }
+        }
+      )
     end
   end
 
