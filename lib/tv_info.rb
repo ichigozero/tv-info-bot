@@ -3,13 +3,13 @@ require 'time'
 
 class TvInfo
   def get_program_summaries_of_multiple_actors(actor_names)
-    summaries = []
+    summaries = {}
 
     actor_names.each do |actor_name|
-      summaries << get_program_summaries(actor_name)
+      summaries[actor_name] = get_program_summaries(actor_name)
     end
 
-    summaries.flatten
+    summaries
   end
 
   def get_program_summaries(actor_name)
@@ -17,7 +17,7 @@ class TvInfo
     summaries = []
 
     rss.items.each do |rss_item|
-      summaries << get_program_summary(actor_name, rss_item)
+      summaries << get_program_summary(rss_item)
     end
 
     summaries
@@ -34,9 +34,8 @@ class TvInfo
       'stationPlatformId=0'
   end
 
-  def get_program_summary(actor_name, rss_item)
+  def get_program_summary(rss_item)
     {
-      actor_name: actor_name,
       title: extract_program_title(rss_item.title),
       channel: extract_channel_name(rss_item.description),
       schedule: extract_program_schedule(
