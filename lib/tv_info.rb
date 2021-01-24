@@ -2,6 +2,17 @@ require 'cgi'
 require 'time'
 
 class TvInfo
+  def get_program_summaries(actor_name)
+    rss = RSS::Parser.parse(compose_url(actor_name))
+    summaries = []
+
+    rss.items.each do |rss_item|
+      summaries << get_program_summary(actor_name, rss_item)
+    end
+
+    summaries
+  end
+
   private
 
   def compose_url(actor_name)

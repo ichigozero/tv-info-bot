@@ -4,6 +4,16 @@ require 'tv_info'
 describe TvInfo do
   before(:each) { @tv_info = TvInfo.new }
 
+  describe '.get_program_summaries' do
+    it 'returns program summaries given actor name' do
+      rss = RSS::Parser.parse(File.read('spec/fixtures/rss.xml'), false)
+      allow(RSS::Parser).to receive(:parse).and_return(rss)
+
+      summaries = @tv_info.get_program_summaries('有村架純')
+      expect(summaries.length()).to eq(44)
+    end
+  end
+
   describe '.compose_url' do
     subject { @tv_info.send(:compose_url, '有村架純') }
 
