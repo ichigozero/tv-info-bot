@@ -12,7 +12,8 @@ describe TvInfo do
       summaries = tv_info.get_program_summaries_of_multiple_actors(
         %w[有村架純 よしのちとせ]
       )
-      expect(summaries.length).to eq(88)
+      expect(summaries['有村架純'].length).to eq(44)
+      expect(summaries['よしのちとせ'].length).to eq(44)
     end
   end
 
@@ -42,13 +43,12 @@ describe TvInfo do
     rss = RSS::Parser.parse(File.read('spec/fixtures/rss.xml'), false)
 
     subject do
-      tv_info.send(:get_program_summary, '有村架純', rss.item)
+      tv_info.send(:get_program_summary, rss.item)
     end
 
     it 'returns program summary' do
       expect(subject).to eq(
         {
-          actor_name: '有村架純',
           title: '映画「花束みたいな恋をした」スペシャル',
           channel: 'ＴＢＳチャンネル１ 最新ドラマ・音楽・映画(Ch.616)',
           schedule: {
