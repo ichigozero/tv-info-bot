@@ -2,11 +2,14 @@ require 'mail'
 
 class Mailer
     def self.compose(mail_from, mail_to, actor_name, program_summaries)
+        mail_subject = generate_mail_subject(actor_name, program_summaries)
+        mail_body = generate_mail_body(program_summaries)
+
         Mail.new do
             from "#{mail_from}"
             to "#{mail_to}"
-            subject generate_subject(actor_name, program_summaries)
-            body generate_mail_body(program_summaries)
+            subject "#{mail_subject}"
+            body "#{mail_body}"
         end
     end
 

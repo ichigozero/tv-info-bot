@@ -1,4 +1,5 @@
 require 'cgi'
+require 'rss'
 require 'time'
 
 class TvInfo
