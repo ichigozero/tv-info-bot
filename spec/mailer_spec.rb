@@ -40,8 +40,8 @@ describe Mailer do
     end
 
     it 'returns mail subject' do
-      mail_body = "Title1\nChannel1\n2021/01/01 10:30 〜 11:00\n\n"
-      mail_body += "Title2\nChannel2\n2021/01/02 16:30 〜 17:00"
+      mail_body = "2021/01/01 10:30 〜 11:00\nTitle1\nChannel1\n\n"
+      mail_body += "2021/01/02 16:30 〜 17:00\nTitle2\nChannel2"
       expect(subject).to eq(mail_body)
     end
   end

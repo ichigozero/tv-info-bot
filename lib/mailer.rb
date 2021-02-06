@@ -26,11 +26,11 @@ class Mailer
     program_summaries.each do |summary|
       mail_body += "\n\n" if mail_body.length.positive?
 
-      mail_body += "#{summary[:title]}\n"
-      mail_body += "#{summary[:channel]}\n"
       mail_body += summary[:schedule][:start].strftime('%Y/%m/%d %H:%M')
       mail_body += ' 〜 '
       mail_body += summary[:schedule][:end].strftime('%H:%M')
+      mail_body += "\n#{summary[:title]}"
+      mail_body += "\n#{summary[:channel]}"
     end
 
     mail_body
