@@ -5,6 +5,8 @@ class Mailer
     mail_subject = generate_mail_subject(actor_name, program_summaries)
     mail_body = generate_mail_body(program_summaries)
 
+    puts 'Composing mail'
+
     Mail.new do
       from mail_from
       to mail_to
@@ -14,6 +16,8 @@ class Mailer
   end
 
   def self.generate_mail_subject(actor_name, program_summaries)
+    puts 'Generating mail subject'
+
     start_date = program_summaries[0][:schedule][:start].strftime('%Y/%m/%d')
     end_date = program_summaries[-1][:schedule][:end].strftime('%Y/%m/%d')
 
@@ -21,6 +25,8 @@ class Mailer
   end
 
   def self.generate_mail_body(program_summaries)
+    puts 'Generating mail body'
+
     mail_body = ''
 
     program_summaries.each do |summary|

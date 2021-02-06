@@ -14,7 +14,9 @@ class TvInfo
   end
 
   def get_program_summaries(actor_name)
-    rss = RSS::Parser.parse(compose_url(actor_name))
+    url = compose_url(actor_name)
+    puts "Fetching data of #{url}"
+    rss = RSS::Parser.parse(url)
     summaries = []
 
     rss.items.each do |rss_item|

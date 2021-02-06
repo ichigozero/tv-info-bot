@@ -29,6 +29,8 @@ mail = Mailer.compose(
   summaries
 )
 
+puts "Sending mail to #{mail_to}"
+
 mail.charset = 'UTF-8'
 mail.content_transfer_encoding = '8bit'
 mail.deliver
