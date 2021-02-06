@@ -5,22 +5,22 @@ describe Mailer do
   let(:actor_name) { 'John Doe' }
   let(:program_summaries) do
     [
-        {
-          title: 'Title1',
-          channel: 'Channel1',
-          schedule: {
-            start: Time.new(2021, 1, 1, 10, 30),
-            end: Time.new(2021, 1, 1, 11, 0)
-          }
-        },
-        {
-          title: 'Title2',
-          channel: 'Channel2',
-          schedule: {
-            start: Time.new(2021, 1, 2, 16, 30),
-            end: Time.new(2021, 1, 2, 17, 0)
-          }
+      {
+        title: 'Title1',
+        channel: 'Channel1',
+        schedule: {
+          start: Time.new(2021, 1, 1, 10, 30),
+          end: Time.new(2021, 1, 1, 11, 0)
         }
+      },
+      {
+        title: 'Title2',
+        channel: 'Channel2',
+        schedule: {
+          start: Time.new(2021, 1, 2, 16, 30),
+          end: Time.new(2021, 1, 2, 17, 0)
+        }
+      }
     ]
   end
 
