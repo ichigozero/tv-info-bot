@@ -1,18 +1,26 @@
 require 'mail'
 
 class Mailer
-  def self.compose(mail_from, mail_to, actor_name, program_summaries)
+  def self.deliver(mail_from, mail_to, actor_name, program_summaries)
+    return nil unless program_summaries.any?
+
     mail_subject = generate_mail_subject(actor_name, program_summaries)
     mail_body = generate_mail_body(program_summaries)
 
     puts 'Composing mail'
 
-    Mail.new do
+    mail = Mail.new do
       from mail_from
       to mail_to
       subject mail_subject
       body mail_body
     end
+
+    puts "Sending mail to #{mail_to}"
+
+    mail.charset = 'UTF-8'
+    mail.content_transfer_encoding = '8bit'
+    mail.deliver
   end
 
   def self.generate_mail_subject(actor_name, program_summaries)

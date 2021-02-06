@@ -16,11 +16,15 @@ class TvInfo
   def get_program_summaries(actor_name)
     url = compose_url(actor_name)
     puts "Fetching data of #{url}"
-    rss = RSS::Parser.parse(url)
     summaries = []
 
-    rss.items.each do |rss_item|
-      summaries << get_program_summary(rss_item)
+    begin
+      rss = RSS::Parser.parse(url)
+      rss.items.each do |rss_item|
+        summaries << get_program_summary(rss_item)
+      end
+    rescue RSS::MissingTagError
+      puts 'No data to fetch'
     end
 
     summaries

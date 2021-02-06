@@ -22,15 +22,9 @@ Mail.defaults do
   }
 end
 
-mail = Mailer.compose(
+Mailer.deliver(
   ENV.fetch('MAIL_ADDRESS'),
   mail_to,
   actor_name,
   summaries
 )
-
-puts "Sending mail to #{mail_to}"
-
-mail.charset = 'UTF-8'
-mail.content_transfer_encoding = '8bit'
-mail.deliver
