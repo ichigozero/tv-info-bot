@@ -2,7 +2,10 @@ require 'mail'
 
 class Mailer
   def self.deliver(mail_from, mail_to, actor_name, program_summaries)
-    return nil unless program_summaries.any?
+    unless program_summaries.any?
+      puts 'Nothing to send!'
+      return nil
+    end
 
     mail_subject = generate_mail_subject(actor_name, program_summaries)
     mail_body = generate_mail_body(program_summaries)
