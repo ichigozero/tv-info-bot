@@ -1,23 +1,31 @@
 require 'cgi'
+require 'rss'
 require 'time'
 
 class TvInfo
   def get_program_summaries_of_multiple_actors(actor_names)
-    summaries = []
+    summaries = {}
 
     actor_names.each do |actor_name|
-      summaries << get_program_summaries(actor_name)
+      summaries[actor_name] = get_program_summaries(actor_name)
     end
 
-    summaries.flatten
+    summaries
   end
 
-  def get_program_summaries(actor_name)
-    rss = RSS::Parser.parse(compose_url(actor_name))
+  def get_program_summaries(actor_name, channel_to_filters = nil)
+    url = compose_url(actor_name)
+    puts "Fetching data of #{url}"
     summaries = []
 
-    rss.items.each do |rss_item|
-      summaries << get_program_summary(actor_name, rss_item)
+    begin
+      rss = RSS::Parser.parse(url)
+      rss.items.each do |rss_item|
+        summary = get_program_summary(rss_item, channel_to_filters)
+        summaries << summary unless summary.nil?
+      end
+    rescue RSS::MissingTagError
+      puts 'No data to fetch'
     end
 
     summaries
@@ -34,9 +42,13 @@ class TvInfo
       'stationPlatformId=0'
   end
 
-  def get_program_summary(actor_name, rss_item)
+  def get_program_summary(rss_item, channel_to_filters = nil)
+    unless channel_to_filters.nil?
+      channel_number = extract_channel_number(rss_item.description).to_i
+      return nil unless channel_to_filters.include? channel_number
+    end
+
     {
-      actor_name: actor_name,
       title: extract_program_title(rss_item.title),
       channel: extract_channel_name(rss_item.description),
       schedule: extract_program_schedule(
@@ -52,6 +64,11 @@ class TvInfo
 
   def extract_channel_name(raw_description)
     raw_description.match(/\[(.+)\]/)[1]
+  end
+
+  def extract_channel_number(raw_description)
+    match_data = raw_description.match(/\(Ch.(\d+)\)/)
+    match_data[1] unless match_data.nil?
   end
 
   def extract_program_schedule(raw_date, raw_description)
