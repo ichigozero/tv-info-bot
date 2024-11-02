@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-ruby '3.0.0'
+ruby '3.3.5'
 
 gem 'mail'
 gem 'rspec'
-gem 'solargraph'
